@@ -1,0 +1,159 @@
+.react-datetime-picker__wrapper{
+  border-color: #CCCCCC !important;
+  height: 37px;
+  border-radius: 4px;
+}
+.react-datetime-picker__button{
+  &>svg{
+    fill:#CCCCCC;
+    stroke: #CCCCCC;
+  }
+}
+.react-datetime-picker__inputGroup__input{
+  // color: #CCCCCC !important;
+}
+.border-bottom{
+  border-bottom: 1px solid #dee2e6;
+}
+.logo-div{
+  background-color: #fff;
+  display:flex;
+  flex-direction:row; 
+  justify-content: space-between;
+  &>div{
+    display: inline-flex;
+    vertical-align: middle;
+  }
+  .user-details{
+    display: inline-block;
+    padding-top: 5px; 
+    padding-left: 5px; 
+  }
+  .avatar-container{
+    display: inline-block;
+    padding-top: 7px;
+  }
+  .logo-img{
+    width: 50px;
+    height: 50px;
+  }
+}
+.main-action-header{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  z-index: 2;
+}
+.main-div{
+  margin-left: 0;
+  // transition:margin-left 0.2s ease-in-out; 
+  margin-top: 64px;
+  padding-top: 0.75rem;
+  &.hovered-side{
+    margin-left: 200px;
+  }
+}
+.main-header-div{
+  .nav-tabs{
+    border-bottom: 0;
+  }
+  .nav-link{
+    border-bottom: 0;
+  }
+}
+.side-bar-div{
+  position: fixed;
+  display: flex;
+  flex-direction:column;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 67px;
+  transition: width 0.2s ease-in-out; 
+  background: rgb(15,42,67);
+  overflow-y:auto;
+  overflow-x: hidden;
+  flex:1;
+  margin-top: 64px;
+  // z-index: 2;
+  &.hovered-side{
+    width: 200px;
+  }
+}
+.side-bar-list{
+  border-top: 1px solid #dee2e6;
+  li{
+    font-size: 17px;
+    cursor: pointer;
+    padding: 15px 20px 14px 20px;
+    color: #496480; white-space: nowrap;
+    &:hover, &:focus{
+      text-decoration: none;
+    }
+    &:hover{
+      background-color: #233951;
+      color: #FBCF13
+    }
+    &.active{
+      background-color: #233951;
+      // color: #63f2ea;
+      color: #FBCF13;
+      border-left: 2px solid #FBCF13;
+    }
+  }
+  .side-bar-sub-list{
+    &>li{
+      padding-left:30px;
+      &.active-sub{
+        color: #FBCF13;
+      }
+    }
+  }
+}
+
+.card{
+  .nav-tabs{
+    margin-left:0;
+    margin-right:0;
+      padding-left: 0.85rem;
+  }
+}
+.footer-div{
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.stat-cards-col{
+  .card{
+    // height:195px;
+  }
+}
+.recharts-wrapper{
+  margin: 0 auto;
+}
+
+.min-height{
+  min-height: calc(100vh - 65px);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.7);
+  // overflow-y: scroll;
+  // overscroll-behavior: contain;
+}
+.noscroll { 
+  overflow: hidden;
+}

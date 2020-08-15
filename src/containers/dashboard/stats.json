@@ -1,0 +1,88 @@
+{
+    "users":[
+        {
+            "text":"users",
+            "val": "100",
+            "icon": "user",
+            "color": "green"
+        },
+        {
+            "text":"Shoppers",
+            "val": "40",
+            "icon":"shopping-cart",
+            "color": "teal"
+        },
+        {
+            "text":"Travellers",
+            "val": "60",
+            "icon":"phone",
+            "color": "yellow"
+        }
+
+    ],
+    "revenue": [
+        {
+            "text":"Shipments this week",
+            "val": "50",
+            "color": "green"
+        },
+        {
+            "text":"Trips this Week",
+            "val": "20",
+            "color":"red"
+        }
+
+    ],
+    "allStats": [
+        {
+            "text": "Shipment only", 
+            "val":"60",
+            "icon" : "",
+            "color" : ""
+        },
+        {
+            "text": "Purchase and ship", 
+            "val":"40",
+            "icon" : "",
+            "color" : ""
+        },
+        {
+            "text": "prime shipments", 
+            "val":"80",
+            "icon" : "",
+            "color" : ""
+        },
+        {
+            "text": "Shipment Completed", 
+            "val":"100",
+            "icon" : "",
+            "color" : ""
+        },
+        {
+            "text": "Total Trips", 
+            "val":"60",
+            "icon" : "",
+            "color" : ""
+        },
+        {
+            "text": "Trip completed", 
+            "val":"40",
+            "icon" : "",
+            "color" : ""
+        }
+    ],
+    "OtherStats": [
+        {
+            "text": "tota Revenue This Month", 
+            "val":"$50,000",
+            "icon" : "",
+            "color" : ""
+        },
+        {
+            "text": "Total Collected Money", 
+            "val":"$20,000",
+            "icon" : "",
+            "color" : ""
+        }
+    ]
+}

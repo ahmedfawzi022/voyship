@@ -1,0 +1,176 @@
+[
+    {
+        "name":"Dashboard",
+        "path":"/home",
+        "icon": "faHome",
+        "position": ""
+    },
+    {
+        "name":"Admins",
+        "path":"/admins/",
+        "icon": "faHouseUser",
+        "position": "",
+        "subCats": [
+            {
+                "name":"Admins",
+                "subPath":"/admins/admins",
+                "subIcon": "faUser",
+                "position": ""
+            },
+            {
+                "name":"Super Admin",
+                "subPath":"/admins/superadmin",
+                "subIcon": "faUser",
+                "position": ""
+            },
+            {
+                "name":"Operator",
+                "subPath":"/admins/operator",
+                "subIcon": "faUser",
+                "position": ""
+            }
+        ]
+    },
+    {
+        "name":"Users",
+        "path":"/users",
+        "icon": "faUsers",
+        "position": "",
+        "subCats": [
+            {
+                "name":"Travellers",
+                "subPath":"/users/travellers",
+                "subIcon": "faUser",
+                "position": ""
+            },
+            {
+                "name":"Shoppers",
+                "subPath":"/users/shoppers",
+                "subIcon": "faUser",
+                "position": ""
+            },
+            {
+                "name":"Prime Travellers",
+                "subPath":"/users/prime",
+                "subIcon": "faUser",
+                "position": ""
+            }
+        ]
+    },
+    {
+        "name":"Trips",
+        "path":"/trips",
+        "icon": "faPaperPlane",
+        "position": "",
+        "subCats": [
+            {
+                "name":"Pending",
+                "subPath":"/trips/pending",
+                "subIcon": "faPaperPlane",
+                "position": ""
+            },
+            {
+                "name":"In progress",
+                "subPath":"/trips/progress",
+                "subIcon": "faPaperPlane",
+                "position": ""
+            },
+            {
+                "name":"Complete",
+                "subPath":"/trips/complete",
+                "subIcon": "faPaperPlane",
+                "position": ""
+            }
+        ]
+    },
+    {
+        "name":"Shipments",
+        "path":"/shipments",
+        "icon": "faTruck",
+        "position": "",
+        "subCats": [
+            {
+                "name":"Ship Only",
+                "subPath":"/shipments/ship-only",
+                "subIcon": "faTruck",
+                "position": ""
+            },
+            {
+                "name":"Prime shipments",
+                "subPath":"/shipments/prime",
+                "subIcon": "faTruck",
+                "position": ""
+            },
+            {
+                "name":"Purchase & ship",
+                "subPath":"/shipments/purchase",
+                "subIcon": "faTruck",
+                "position": ""
+            }
+        ]
+    },
+    {
+        "name":"Products",
+        "path":"/products",
+        "icon": "faTasks",
+        "position": "",
+        "subCats": [
+            {
+                "name":"Products",
+                "subPath":"/products/products",
+                "subIcon": "faShoppingBag",
+                "position": ""
+            },
+            {
+                "name":"Categories",
+                "subPath":"/products/categories",
+                "subIcon": "faSitemap",
+                "position": ""
+            },
+            {
+                "name":"Stores",
+                "subPath":"/products/stores",
+                "subIcon": "faBuilding",
+                "position": ""
+            }
+        ]
+    },
+    {
+        "name":"Countries",
+        "path":"/countries",
+        "icon": "faGlobeAmericas",
+        "position": "",
+        "subCats": [
+            {
+                "name":"Countries",
+                "subPath":"/countries/countries",
+                "subIcon": "faGlobeAmericas",
+                "position": ""
+            },
+            {
+                "name":"Stories",
+                "subPath":"/countries/stories",
+                "subIcon": "faParachuteBox",
+                "position": ""
+            }
+        ]
+    },
+    {
+        "name":"Reporting",
+        "path":"/reports",
+        "icon": "faCoffee",
+        "position": ""
+    },
+    {
+        "name":"Settings",
+        "path":"/settings",
+        "icon": "faCogs",
+        "position": ""
+    },
+    {
+        "name":"Logout",
+        "path":"/logout",
+        "icon": "faSignOutAlt",
+        "position": ""
+    }
+]

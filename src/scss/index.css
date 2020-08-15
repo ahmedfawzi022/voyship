@@ -1,0 +1,120 @@
+/* Reset CSS */
+:root{
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #f5f7fb !important;
+  color: #495057 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo,
+    Monaco, Consolas, "Courier New", monospace;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.pointer{
+  cursor: pointer !important;
+}
+.clr-white{
+  color: white !important;
+}
+.sidebar-item:hover{
+  background-color: rgb(251,189,7);
+  border-radius: 4px;
+}
+.sidebar-item:first-of-type{
+  border-top: 0 !important;
+}
+.p0{
+  padding: 0 !important;
+}
+.pl0{
+  padding-left: 0 !important;
+}
+
+.ui.container.no-margin {
+  width: auto!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+.ui.grid.no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 2;
+  position: relative;
+}
+.bg-opacity-2{
+  background-color: rgba(255,255,255, 0.2) !important;
+}
+.bg-opacity-4{
+  background-color: rgba(255,255,255, 0.4) !important;
+}
+.bg-opacity-5{
+  background-color: rgba(255,255,255, 0.5) !important;
+}
+.bg-opacity-6{
+  background-color: rgba(255,255,255, 0.6) !important;
+}
+.bg-opacity-7{
+  background-color: rgba(255,255,255, 0.7) !important;
+}
+.bg-opacity-9{
+  background-color: rgba(255,255,255, 0.9) !important;
+}
+.bg-opacity-9{
+  background-color: rgba(255,255,255, 0.8) !important;
+}
+.ui.segment, .ui.card{
+  box-shadow:"0 1px 2px 0 rgba(0, 0, 0, 0.05)";
+}
+.scard{
+  background: white;
+  border:1px solid #d4d4d5;
+  box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-icon {
+  content: "";
+  width: .5rem;
+  height: .5rem;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  margin-right: .375rem;
+  vertical-align: middle;
+}
+.bg-success {
+  background-color: #5eba00!important;
+}
+.hidden-action{display: none !important;}
